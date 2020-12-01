@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		D7223BF12575E177009ED746 /* Barcode_Book_ScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7223BF02575E177009ED746 /* Barcode_Book_ScannerApp.swift */; };
-		D7223BF32575E177009ED746 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7223BF22575E177009ED746 /* ContentView.swift */; };
 		D7223BF52575E179009ED746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7223BF42575E179009ED746 /* Assets.xcassets */; };
 		D7223BF82575E179009ED746 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7223BF72575E179009ED746 /* Preview Assets.xcassets */; };
 		D7223BFA2575E179009ED746 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7223BF92575E179009ED746 /* Persistence.swift */; };
 		D7223BFD2575E179009ED746 /* Barcode_Book_Scanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7223BFB2575E179009ED746 /* Barcode_Book_Scanner.xcdatamodeld */; };
+		D7223C072575E329009ED746 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7223C062575E329009ED746 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D7223BED2575E177009ED746 /* Barcode Book Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Barcode Book Scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7223BF02575E177009ED746 /* Barcode_Book_ScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barcode_Book_ScannerApp.swift; sourceTree = "<group>"; };
-		D7223BF22575E177009ED746 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D7223BF42575E179009ED746 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7223BF72575E179009ED746 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D7223BF92575E179009ED746 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		D7223BFC2575E179009ED746 /* Barcode_Book_Scanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Barcode_Book_Scanner.xcdatamodel; sourceTree = "<group>"; };
 		D7223BFE2575E179009ED746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7223C062575E329009ED746 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +56,8 @@
 		D7223BEF2575E177009ED746 /* Barcode Book Scanner */ = {
 			isa = PBXGroup;
 			children = (
+				D7223C062575E329009ED746 /* ContentView.swift */,
 				D7223BF02575E177009ED746 /* Barcode_Book_ScannerApp.swift */,
-				D7223BF22575E177009ED746 /* ContentView.swift */,
 				D7223BF42575E179009ED746 /* Assets.xcassets */,
 				D7223BF92575E179009ED746 /* Persistence.swift */,
 				D7223BFE2575E179009ED746 /* Info.plist */,
@@ -146,7 +146,7 @@
 			files = (
 				D7223BFD2575E179009ED746 /* Barcode_Book_Scanner.xcdatamodeld in Sources */,
 				D7223BFA2575E179009ED746 /* Persistence.swift in Sources */,
-				D7223BF32575E177009ED746 /* ContentView.swift in Sources */,
+				D7223C072575E329009ED746 /* ContentView.swift in Sources */,
 				D7223BF12575E177009ED746 /* Barcode_Book_ScannerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
